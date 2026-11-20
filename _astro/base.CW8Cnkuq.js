@@ -1,0 +1,1 @@
+var e=`/gkb-preview-2b649f51`.replace(/\/$/,``),t=t=>typeof t==`string`&&t.startsWith(`/`)&&!t.startsWith(`//`)&&(!e||t!==e&&!t.startsWith(e+`/`))?e+t:t,n=t=>e&&t.startsWith(e)?t.slice(e.length)||`/`:t;export{t as n,n as t};
